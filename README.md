@@ -54,7 +54,7 @@ You should now be able to use the plugin.
 > How can I change the default "v" key binding to something else? For example,
 > key "x"?
 
-Put `set -g @revmenu-key 'v'` in `.tmux.conf`.
+Put `set -g @revmenu-key 'x'` in `.tmux.conf`.
 
 ### Other goodies
 
