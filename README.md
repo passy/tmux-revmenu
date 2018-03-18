@@ -40,12 +40,16 @@ $ git clone https://github.com/passy/tmux-revmenu ~/clone/path
 
 Add this line to the bottom of `.tmux.conf`:
 
-    run-shell ~/clone/path/revmenu.tmux
+```tmux
+run-shell ~/clone/path/revmenu.tmux
+```
 
 Reload TMUX environment:
 
-    # type this in terminal
-    $ tmux source-file ~/.tmux.conf
+```bash
+# type this in terminal
+$ tmux source-file ~/.tmux.conf
+```
 
 You should now be able to use the plugin.
 
